@@ -5,6 +5,18 @@ TextureImporter:
   - first:
       213: 2886658478054417722
     second: charater_0
+  - first:
+      213: -5114885205879070331
+    second: charater_1
+  - first:
+      213: -6973787627707759528
+    second: charater_2
+  - first:
+      213: 3988394052748320960
+    second: charater_3
+  - first:
+      213: 8322746665757539847
+    second: charater_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,12 +115,12 @@ TextureImporter:
       name: charater_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 890
+        x: 38
+        y: 873
         width: 95
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +133,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: charater_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 869
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5816dac41074409b0800000000000000
+      internalID: -5114885205879070331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: charater_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 867
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e7b082ff5508370800000000000000
+      internalID: 8322746665757539847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c900575899bfb1747aa8781cb131851f
     internalID: 0
     vertices: []
     indices: 
@@ -134,7 +190,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      charater_0: 2886658478054417722
+      charater_1: -5114885205879070331
+      charater_4: 8322746665757539847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
