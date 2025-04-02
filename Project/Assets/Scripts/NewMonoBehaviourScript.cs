@@ -6,6 +6,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField]
     private float moveSpeed;
     Animator animator;
+    float nextX = 0;
+    float nextY = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,17 +17,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float nextX = (Input.GetAxis("Horizontal"));
-        float nextY = (Input.GetAxis("Vertical"));
-
-        if(Input.GetAxis("Horizontal") == 0f && Input.GetAxis("Vertical") == 0f){
+        nextX = Input.GetAxis("Horizontal");
+        nextY = Input.GetAxis("Vertical");
+ 
+        if(nextX == 0f && nextY == 0f){
             animator.SetInteger("AnimationState", 0);
         }
         else{
             animator.SetInteger("AnimationState", 1);
+            transform.Translate((new Vector3(nextX, nextY, 0). normalized * Time.deltaTime) * moveSpeed);
         }
         // transform.position = new Vector3(nextX, nextY, 0).normalized;
-        transform.Translate((new Vector3(nextX, nextY, 0). normalized * Time.deltaTime) * moveSpeed);
+        
     }
     
 }
