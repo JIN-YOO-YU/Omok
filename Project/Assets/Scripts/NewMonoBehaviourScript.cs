@@ -15,8 +15,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float nextX = transform.position.x + (moveSpeed * Time.deltaTime * Input.GetAxis("Horizontal"));
-        float nextY = transform.position.y + (moveSpeed * Time.deltaTime * Input.GetAxis("Vertical"));
+        float nextX = (Input.GetAxis("Horizontal"));
+        float nextY = (Input.GetAxis("Vertical"));
 
         if(Input.GetAxis("Horizontal") == 0f && Input.GetAxis("Vertical") == 0f){
             animator.SetInteger("AnimationState", 0);
@@ -24,7 +24,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
         else{
             animator.SetInteger("AnimationState", 1);
         }
-        transform.position = new Vector3(nextX, nextY, 0);
+        // transform.position = new Vector3(nextX, nextY, 0).normalized;
+        transform.Translate((new Vector3(nextX, nextY, 0). normalized * Time.deltaTime) * moveSpeed);
     }
     
 }
