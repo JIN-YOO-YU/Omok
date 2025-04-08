@@ -4,5 +4,5 @@
  * 오목알을 배치하려는 상대를 저지할 수 있습니다.
  * 때때로 오목알은 날아가 의도와는 다른 곳에 놓여질 수 있습니다.
    
-<img src="./image/변칙캐릭터오목_운반.gif"  width="360px">   
-<img src="./image/변칙캐릭터오목_방해.gif"  width="360px">   
+<img src="./Image/변칙캐릭터오목_운반.gif"  width="360px">   
+<img src="./Image/변칙캐릭터오목_방해.gif"  width="360px">   
