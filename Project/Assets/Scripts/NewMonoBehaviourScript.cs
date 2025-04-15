@@ -20,7 +20,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private float nextX = 0;
     private float nextY = 0;
     public GameObject obj;
-    IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse("172.16.17.69"), 8211);
+    IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse("172.31.18.18"), 8211);
         //소켓 생성
     Socket socket;
     
@@ -55,11 +55,12 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }  
 
         String str = transform.position.ToString();
-        byte[] sendBuff = Encoding.UTF8.GetBytes(str);
-        socket.Send(sendBuff);
-        byte[] recvBuff = new byte[1024];
-        int recvBytes = socket.Receive(recvBuff);
-        string recvData = Encoding.UTF8.GetString(recvBuff, 0, recvBytes);
-        Debug.Log(recvData);
+        //byte[] sendBuff = Encoding.UTF8.GetBytes(str);
+        byte[] byteX =  System.BitConverter.GetBytes(transform.position.x);
+        byte[] byteY =  System.BitConverter.GetBytes(transform.position.y);
+        byte[] sendData = new byte[byteX.Length + byteY.Length];
+        Array.Copy(byteX, 0, sendData, 0, byteX.Length);
+        Array.Copy(byteY, 0, sendData, byteX.Length, byteY.Length);
+        socket.Send(sendData);
     }
 }
