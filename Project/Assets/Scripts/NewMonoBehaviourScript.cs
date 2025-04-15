@@ -51,15 +51,17 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.E)){
             Instantiate(obj, transform.position, Quaternion.identity);
-            
+            String str = transform.position.ToString();
+            byte[] sendBuff = Encoding.UTF8.GetBytes(str);
+            socket.Send(sendBuff);
         }  
 
-        String str = transform.position.ToString();
-        byte[] sendBuff = Encoding.UTF8.GetBytes(str);
-        socket.Send(sendBuff);
-        byte[] recvBuff = new byte[1024];
-        int recvBytes = socket.Receive(recvBuff);
-        string recvData = Encoding.UTF8.GetString(recvBuff, 0, recvBytes);
-        Debug.Log(recvData);
+        // String str = transform.position.ToString();
+        // byte[] sendBuff = Encoding.UTF8.GetBytes(str);
+        // socket.Send(sendBuff);
+        // byte[] recvBuff = new byte[1024];
+        // int recvBytes = socket.Receive(recvBuff);
+        // string recvData = Encoding.UTF8.GetString(recvBuff, 0, recvBytes);
+        // Debug.Log(recvData);
     }
 }
