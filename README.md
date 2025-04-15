@@ -9,3 +9,4 @@
 <img src="./Image/변칙캐릭터오목_운반.gif"  width="360px">   
 방해   
 <img src="./Image/변칙캐릭터오목_방해.gif"  width="360px">   
+
