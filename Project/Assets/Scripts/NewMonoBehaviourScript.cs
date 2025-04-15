@@ -73,6 +73,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
         Array.Copy(byteX, 0, sendData, 0, byteX.Length);
         Array.Copy(byteY, 0, sendData, byteX.Length, byteY.Length);
         socket.Send(sendData);
+<<<<<<< HEAD
+>>>>>>> 1ead61dab886f27f5640e76401c6ef847d54ed3d
+=======
 >>>>>>> 1ead61dab886f27f5640e76401c6ef847d54ed3d
     }
 }
