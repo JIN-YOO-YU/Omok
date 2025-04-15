@@ -51,7 +51,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.E)){
             Instantiate(obj, transform.position, Quaternion.identity);
-            
         }  
 
         String str = transform.position.ToString();
