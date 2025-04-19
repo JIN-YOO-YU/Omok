@@ -1,12 +1,34 @@
-# 변칙캐릭터오목(임시)
- 기존 오목의 규칙을 차용, 추가적인 변수 창출요소를 더한 게임을 개발중에 있습니다. 
- * 캐릭터를 이용해 오목알을 운반합니다.
- * 오목알을 배치하려는 상대를 저지 및 방해할 수 있습니다.
- * 때때로 오목알은 날아가 의도와는 다른 곳에 놓여질 수 있습니다.
+![Image](https://github.com/user-attachments/assets/b5a88bdb-4cd2-4700-b5d3-1edc97bf1241)
 
-### 상상도
-운반   
-<img src="./Image/변칙캐릭터오목_운반.gif"  width="360px">   
-방해   
-<img src="./Image/변칙캐릭터오목_방해.gif"  width="360px">   
+---
 
+
+![Image](https://github.com/user-attachments/assets/8de064c3-75bb-4319-9360-e0dbfa451c80)
+
+---
+
+![Image](https://github.com/user-attachments/assets/bad28d31-870a-4046-a657-9e955bc839c6)
+
+---
+
+![Image](https://github.com/user-attachments/assets/c068b2f2-f2c2-41d9-8696-4e1ac1273181)
+
+---
+
+![Image](https://github.com/user-attachments/assets/af09d454-1bcd-4f72-a169-ecc9ee98780c)
+
+---
+
+![Image](https://github.com/user-attachments/assets/5977bc08-e81b-4cd0-bae4-f2193cc19af5)
+
+---
+
+![Image](https://github.com/user-attachments/assets/caaa6a38-50f1-41f9-96b5-15d7397ea43a)
+
+---
+
+![Image](https://github.com/user-attachments/assets/e00ef593-d836-4bb1-b7d7-281e6c4c5916)
+
+---
+
+![Image](https://github.com/user-attachments/assets/205413c3-17f4-432b-9f0e-276c10446c9f)
