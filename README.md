@@ -44,7 +44,12 @@
 
 ### 기본 게임 메커니즘
 
-![image](https://github.com/user-attachments/assets/de569673-ccde-4ea8-a55f-dfff5362e361)
+
+
+![media2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7e674744-ce48-43c7-be7e-d180a3d055b9)
+
+
+
 
 
 
@@ -52,13 +57,23 @@
 
 ### 차별화 요소: 변수 창출 시스템
 
+![media1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/531beb01-71c5-46dc-9c25-676dfa76f445)
+
+
 단순한 오목 게임에 전략적 재미를 더하기 위해 다양한 방해 행동을 통해 변수를 만들어냅니다.
 
 주요 방해 기능:
 
 1. **떨어트리기**: 상대방이 들고 있는 돌을 떨어트려 떨어트린 자리에 배치시킵니다.
-2. **날려버리기(던지기)**: 상대방이 들고 있는 돌을 날려서 원하지 않는 위치에 배치되게 합니다.
-3. **충돌시키기(파괴)**: 상대방이 들고 있는 돌을 던져서 기존에 놓인 돌과 충돌할 경우 돌이 파괴됩니다.
+  ![media4-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/0eb795ed-d3a8-4463-97d0-c44020626e17)
+
+3. **날려버리기(던지기)**: 상대방이 들고 있는 돌을 날려서 원하지 않는 위치에 배치되게 합니다.
+   ![media1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ce56d373-8e50-4254-9b91-f19ed946823f)
+
+   
+5. **충돌시키기(파괴)**: 상대방이 들고 있는 돌을 던져서 기존에 놓인 돌과 충돌할 경우 돌이 파괴됩니다.
+   ![media3-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8bfe2870-b4bb-4cbe-96ff-7fdd05c4ad26)
+
 
 ### 캐릭터 시스템
 
