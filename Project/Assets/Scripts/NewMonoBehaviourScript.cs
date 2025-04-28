@@ -27,7 +27,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        Instantiate(obj, new Vector2(1,1), Quaternion.identity);
         //끝점 생성 (서버 IP 및 포트)
         socket = new Socket(endPoint.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
@@ -50,7 +49,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
 
         if(Input.GetKeyDown(KeyCode.E)){
-            Instantiate(obj, transform.position, Quaternion.identity);
+            Vector3 vector = new Vector3((float)Math.Round(transform.position.x), (float)Math.Round(transform.position.y), 0);
+
+            Instantiate(obj, vector, Quaternion.identity);
         }  
 
         String str = transform.position.ToString();
