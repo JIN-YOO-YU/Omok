@@ -20,7 +20,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private float nextX = 0;
     private float nextY = 0;
     public GameObject obj;
-    IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse("172.16.17.69"), 8211);
+    IPEndPoint endPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8211);
         //소켓 생성
     Socket socket;
     
@@ -49,7 +49,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
 
         if(Input.GetKeyDown(KeyCode.E)){
-            Vector3 vector = new Vector3((float)Math.Round(transform.position.x), (float)Math.Round(transform.position.y), 0);
+            Vector2 vector = new Vector2((float)Math.Round(transform.position.x), (float)Math.Round(transform.position.y));
 
             Instantiate(obj, vector, Quaternion.identity);
         }  
